@@ -1,0 +1,148 @@
+{
+	"info": {
+		"_postman_id": "4a26cf6b-9c5b-467d-ab3b-855f7390dc73",
+		"name": "ENSEK",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Energy Details",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Buy Gas",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "https://ensekapicandidatetest.azurewebsites.net/buy/3/1000",
+					"protocol": "https",
+					"host": [
+						"ensekapicandidatetest",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"buy",
+						"3",
+						"1000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Buy Electricty",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "https://ensekapicandidatetest.azurewebsites.net/buy/3/1000",
+					"protocol": "https",
+					"host": [
+						"ensekapicandidatetest",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"buy",
+						"3",
+						"1000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Buy Oil",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "https://ensekapicandidatetest.azurewebsites.net/buy/4/1000",
+					"protocol": "https",
+					"host": [
+						"ensekapicandidatetest",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"buy",
+						"4",
+						"1000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Buy Nuclear",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "https://ensekapicandidatetest.azurewebsites.net/buy/2/1000",
+					"protocol": "https",
+					"host": [
+						"ensekapicandidatetest",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"buy",
+						"2",
+						"1000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Reset",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY0NTA5ODUxNywianRpIjoiMDUxMjQ4NTAtZDY3OS00N2JlLWEwZDctOTExOTA2ZGFkMzBmIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6InRlc3QiLCJuYmYiOjE2NDUwOTg1MTcsImV4cCI6MTY0NTA5OTQxNywicGFzc3dvcmQiOiJ0ZXN0aW5nIn0.ox4j_VIbpl71RyxD4eu4WGIBYIUW5RMdzJYp38UBIes",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "username",
+						"value": "test",
+						"type": "default",
+						"disabled": true
+					},
+					{
+						"key": "password",
+						"value": "testing",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "https://ensekapicandidatetest.azurewebsites.net/reset",
+					"protocol": "https",
+					"host": [
+						"ensekapicandidatetest",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"reset"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
